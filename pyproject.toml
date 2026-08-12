@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "variation-assigner"
+
+version = "0.1.0"
+description = "Deterministic variation assignment SDK"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [ { name = "Marco Aragon" } ]
+license = { text = "MIT" }
+dependencies = [ "pandas>=1.0" ]
+
+[project.urls]
+Homepage = "https://example.com/variation-assigner"
+[tool.setuptools]
+py-modules = ["step_python_local"]
